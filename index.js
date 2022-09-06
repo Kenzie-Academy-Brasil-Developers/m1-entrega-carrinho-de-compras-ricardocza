@@ -53,7 +53,7 @@ for(let i in productsCart) {
     let produtoAtual = productsCart[i]
     let nomeProduto = produtoAtual.name
     let precoProduto = produtoAtual.price
-    soma += precoProduto
+    soma += precoProduto                //FUNÇÃO SOMA
     precoProduto = String(precoProduto)    
     const li = document.createElement('li')
     li.classList = "productDetails"
